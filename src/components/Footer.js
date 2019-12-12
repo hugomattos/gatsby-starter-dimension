@@ -1,10 +1,24 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; CTM Advogados 2019</p>
-    </footer>
+    <StaticQuery
+    query={graphql`
+      query FooterQuery {
+        site {
+          siteMetadata {
+            footerText
+          }
+        }
+      }
+    `}
+        render={data => (
+            <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+                <p className="copyright">&copy; {data.site.siteMetadata.footerText}</p>
+            </footer>
+        )}
+    />
 )
 
 Footer.propTypes = {

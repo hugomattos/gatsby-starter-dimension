@@ -1,8 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "CTM Advogados",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    mainTitle: "CTM Advogados",
+    mainDescription: "“A sabedoria dos homens é proporcional não à sua experiência mas à sua capacidade de adquirir experiência”",
+    mainDescriptionAuthor: "George Bernard Shaw",
+    firstLink: "CTM",
+    secondLink: "Equipa",
+    thirdLink: "Áreas de prática",
+    fourthLink: "Consulta online",
+    fifthLink: "Contactos",
+    footerText: "CTM ADVOGADOS 2019"
+
   },
   plugins: [
     'gatsby-plugin-react-helmet',

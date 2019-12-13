@@ -105,8 +105,9 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contactos</h2>
-          <a href="#" className="icon fa-facebook"></a><p>Av. Dr. Domingos Gonçalves de Sá 434 sala 21, 4435-213 Rio Tinto</p>
-          <a href="#" className="icon fa-facebook"></a><p>22 110 6669</p>
+          <i className="icon fa-map-pin"></i><p>Av. Dr. Domingos Gonçalves de Sá 434 sala 21, 4435-213 Rio Tinto</p>
+          <i className="icon fa-phone"></i><p>22 110 6669</p>
+
           <ul className="icons">
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
           </ul>

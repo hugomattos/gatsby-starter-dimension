@@ -45,13 +45,16 @@
 				margin-bottom: 1rem;
 			}
 
-			ul {
-				list-style: none;
-			}
+			&#work{
 
-			li::before {
-				content: "-";
-				padding-right: 1.5em;
+				ul {
+					list-style: none;
+				}
+
+				li::before {
+					content: "-";
+					padding-right: 1.5em;
+				}
 			}
 
 			&.active.timeout {
@@ -101,6 +104,13 @@
 					&:before {
 						background-color: _palette(border-bg-alt);
 					}
+				}	
+			}
+
+			&#contact {
+
+				h4 {
+				display: inline;
 				}
 			}
 

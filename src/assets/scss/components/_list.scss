@@ -71,6 +71,15 @@
 					}
 				}
 			}
+
+			&.cv {
+				list-style: none;
+
+				li::before {
+					content: "";
+					padding-right: 1.5em;
+				}
+			}
 		}
 
 		&.actions {

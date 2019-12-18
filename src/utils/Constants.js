@@ -1,0 +1,1 @@
+export const WRONG_EMAIL = '_replyto or email field has not been sent correctly';

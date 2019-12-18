@@ -14,10 +14,10 @@ class Contact extends React.Component{
                 <i className="icon fa-phone"></i><h4>&nbsp;Telefone</h4>
                 <p>22 110 6669</p>
                 <ul className="icons">
-                    <li><a href="https://www.facebook.com/ctmadv/" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                    <li><a href="https://www.facebook.com/ctmadv/" className="icon fa-facebook" target="_blank"><span className="label">Facebook</span></a></li>
                 </ul>
-                <div>
-                    <iframe width="100%" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Av.%20Dr.%20Domingos%20Gon%C3%A7alves%20de%20S%C3%A1%20434%20sala%2021%2C%204435-213%20Rio%20Tinto+(CTM%20Advogados)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" scrolling="no"></iframe>
+                <div className="map">
+                    <iframe width="100%" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=800&amp;hl=en&amp;q=Av.%20Dr.%20Domingos%20Gon%C3%A7alves%20de%20S%C3%A1%20434%20sala%2021%2C%204435-213%20Rio%20Tinto+(CTM%20Advogados)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" scrolling="no"></iframe>
                 </div><br />
                 {close}
             </article>

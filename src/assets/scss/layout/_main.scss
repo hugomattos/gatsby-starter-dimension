@@ -39,22 +39,38 @@
 			.nameRight {
 				margin-bottom: 1rem;
 				text-align: right;
+				
+				.underline {
+					border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+				}
 			}
 
 			.name {
 				margin-bottom: 1rem;
+				
+				.underline {
+					border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+				}
 			}
 
-			&#work{
+			.hr {
+				margin: 2.25rem 0;
+			}
 
-				ul {
-					list-style: none;
-				}
+			
+			.list{
+
+				list-style: none;
+
 
 				li::before {
 					content: "-";
 					padding-right: 1.5em;
 				}
+			}
+
+			h5{
+				display: inline;
 			}
 
 			&.active.timeout {
@@ -111,6 +127,10 @@
 
 				h4 {
 				display: inline;
+				}
+
+				iframe {
+					height: 400px;
 				}
 			}
 

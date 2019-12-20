@@ -8,7 +8,11 @@ module.exports = {
     thirdLink: "Áreas de prática",
     fourthLink: "Consulta online",
     fifthLink: "Contactos",
-    footerText: "CTM ADVOGADOS 2019"
+    footerText: "CTM ADVOGADOS 2019",
+    defaultTitle: "CTM Advogados",
+    defaultDescription: "A CTM Advogados é um escritório composto por 4 Advogados, com sólida formação académica em Direito, que se norteiam por valores de ética, lealdade, independência, rigor, transparência e deontologia ao serviço da comunidade. O sigilo profissional e a confidencialidade são valores absolutos.",
+    siteUrl: "https://www.ctm-advogados.pt",
+    defaultImage: "/images/logo.png"
 
   },
   plugins: [
@@ -26,7 +30,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-offline'
   ],
 }

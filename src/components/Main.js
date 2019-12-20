@@ -7,13 +7,6 @@ import CTM from './CTM'
 import Practices from './Practices'
 import Team from './Team'
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-//import pic03 from '../images/entrada.jpg'
-
-import pic05 from '../images/ctm_no_background.png'
-
-
 class Main extends React.Component {
   render() {
 

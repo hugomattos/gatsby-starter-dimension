@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic04 from '../images/aereal.jpg'
+import pic04 from '../images/aereal.png'
 
 class CTM extends React.Component{
     render(){

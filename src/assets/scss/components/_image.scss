@@ -15,7 +15,7 @@
 		&:before {
 			@include vendor('pointer-events', 'none');
 			background-image: url('../../images/overlay.png');
-			background-color: _palette(bg-overlay);
+			//background-color: _palette(bg-overlay);
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
@@ -45,12 +45,14 @@
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+			text-align: left;
 		}
 
 		&.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
+			text-align: right;
 		}
 
 		&.fit {
@@ -73,14 +75,9 @@
 			}
 		}
 
-		&.left {
-			display: inline-block;
-			text-align: left;
-		}
-
-		&.right {
-			display: inline-block;
-			text-align: right;
+		&.team {
+			display: block;
+			width: 85%;
 		}
 
 		@include breakpoint(small) {

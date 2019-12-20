@@ -1,5 +1,4 @@
 import React from 'react';
-import { WRONG_EMAIL } from '../utils/Constants';
 
 class Form extends React.Component {
   constructor(props) {

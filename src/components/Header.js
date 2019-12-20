@@ -34,11 +34,11 @@ const Header = (props) => (
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>{data.site.siteMetadata.firstLink}</a></li>
-                        <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>{data.site.siteMetadata.secondLink}</a></li>
-                        <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>{data.site.siteMetadata.thirdLink}</a></li>
-                        <li><a href="javascript:;" onClick={() => {props.onOpenArticle('appointment')}}>{data.site.siteMetadata.fourthLink}</a></li>
-                        <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>{data.site.siteMetadata.fifthLink}</a></li>
+                        <li><button onClick={() => {props.onOpenArticle('intro')}}>{data.site.siteMetadata.firstLink}</button></li>
+                        <li><button onClick={() => {props.onOpenArticle('work')}}>{data.site.siteMetadata.secondLink}</button></li>
+                        <li><button onClick={() => {props.onOpenArticle('about')}}>{data.site.siteMetadata.thirdLink}</button></li>
+                        <li><button onClick={() => {props.onOpenArticle('appointment')}}>{data.site.siteMetadata.fourthLink}</button></li>
+                        <li><button onClick={() => {props.onOpenArticle('contact')}}>{data.site.siteMetadata.fifthLink}</button></li>
                     </ul>
                 </nav>
             </header>

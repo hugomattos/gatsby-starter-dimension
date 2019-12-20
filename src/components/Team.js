@@ -5,7 +5,9 @@ import picNuno from '../images/nuno.jpg'
 import picRafael from '../images/rafael.png'
 import picOctavio from '../images/octavio_resized.jpg'
 import picDavid from '../images/david.jpg'
-import cv1 from '../attachments/Types in the Power Query M formula language.pdf'
+import cvNuno from '../attachments/CV Nuno Matos.pdf'
+import cvRafael from '../attachments/CV RCR 19.pdf'
+import cvOctavio from '../attachments/CV Octávio Torres 2019.pdf'
 
 
 class Team extends React.Component{
@@ -23,7 +25,7 @@ class Team extends React.Component{
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
                 <ul className="icons cv">
-                    <li className="cv"><a href={cv1} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
+                    <li className="cv"><a href={cvNuno} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
                 </ul><br/><hr className="hr"/>
 
@@ -35,7 +37,7 @@ class Team extends React.Component{
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
                 <ul className="icons cv">
-                    <li className="cv"><a href={cv1} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
+                    <li className="cv"><a href={cvOctavio} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
                 </ul><br/><hr className="hr"/>
 
@@ -47,7 +49,7 @@ class Team extends React.Component{
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
                 <ul className="icons cv">
-                    <li className="cv"><a href={cv1} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
+                    <li className="cv"><a href={cvRafael} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
                 </ul><br/><hr className="hr"/>
 
@@ -60,7 +62,7 @@ class Team extends React.Component{
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
                 <ul className="icons cv">
-                    <li className="cv"><a href={cv1} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
+                    <li className="cv"><a href={""} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a> 
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
                 </ul>
             {close}

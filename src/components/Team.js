@@ -59,7 +59,7 @@ class Team extends React.Component{
                     <li className="cv">Licenciatura em Direito pela Universidade Católica Portuguesa - Porto (2014)</li>
                     <li className="cv">Mestre em Direito Fiscal na Universidade Católica Portuguesa - Porto (2016)</li>
                     <li className="cv">Pós-graduado em Direito Imobiliário pela Universidade Católica &nbsp; Portuguesa - Porto (2019)</li>
-                    <li className="cv">Línguas: Inglês</li>
+                    <li className="cv">Línguas: Francês; Inglês</li>
                 </ul>
                 <ul className="icons cv">
                     <li className="cv"><a href={""} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a> 

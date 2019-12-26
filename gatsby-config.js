@@ -29,7 +29,14 @@ module.exports = {
         icon: 'src/images/logo.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/`,
+      },
+    },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
-  ],
+    'gatsby-plugin-offline',
+    'gatsby-transformer-sharp'
+  ]
 }

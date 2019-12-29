@@ -1,14 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { useImageCTM } from "../utils/useImages"
-
-import pic04 from '../images/aereal.png'
+import { useImageCTM } from "./hooks/useImageCTM"
 
 const CTM = (props) =>{
     const close = props.close;
-    const image = useImageCTM()
+    const image = useImageCTM();
     return(
         <article id="intro" className={`${props.article === 'intro' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
             <h2 className="major">CTM Advogados</h2>

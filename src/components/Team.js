@@ -24,10 +24,12 @@ class Team extends React.Component{
                     <li className="cv">Mestre em Direito Fiscal na Universidade Católica Portuguesa - Porto (2018)</li>
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
-                <ul className="icons cv">
+                {/*<ul className="icons cv">
                     <li className="cv"><a href={cvNuno} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
-                </ul><br/><hr className="hr"/>
+                </ul>*/}
+
+                <br/><hr className="hr"/>
 
                 <span className="image team right"><img src={picOctavio} alt="" /></span>
                 <p className="nameRight"><span className="underline">Octávio Torres</span></p>
@@ -36,10 +38,12 @@ class Team extends React.Component{
                     <li className="cv">Mestre em Direito Fiscal na Universidade Católica Portuguesa - Porto (2017)</li>
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
-                <ul className="icons cv">
+                {/*<ul className="icons cv">
                     <li className="cv"><a href={cvOctavio} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
-                </ul><br/><hr className="hr"/>
+                </ul>*/}
+
+                <br/><hr className="hr"/>
 
                 <span className="image team left"><img src={picRafael} alt="" /></span>
                 <p className="name"><span className="underline">Rafael Corte Real</span></p>
@@ -48,10 +52,12 @@ class Team extends React.Component{
                     <li className="cv">Mestrando em Direito Fiscal na Universidade Católica Portuguesa - Porto</li>
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
-                <ul className="icons cv">
+                {/*<ul className="icons cv">
                     <li className="cv"><a href={cvRafael} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a>
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
-                </ul><br/><hr className="hr"/>
+                </ul>*/}
+
+                <br/><hr className="hr"/>
 
                 <span className="image team right"><img src={picDavid} alt="" /></span>
                 <p className="nameRight"><span className="underline">David Gloaguen da Silva</span></p>
@@ -61,10 +67,10 @@ class Team extends React.Component{
                     <li className="cv">Pós-graduado em Direito Imobiliário pela Universidade Católica &nbsp; Portuguesa - Porto (2019)</li>
                     <li className="cv">Línguas: Francês; Inglês</li>
                 </ul>
-                <ul className="icons cv">
+                {/*<ul className="icons cv">
                     <li className="cv"><a href={""} className="icon fa-file" target="_blank" rel="noopener noreferrer"><span className="label">Curriculum Vitae</span></a> 
                     <h5>&nbsp;&nbsp;Curriculum Vitae</h5></li>
-                </ul>
+                </ul>*/}
             {close}
             </article>
         )

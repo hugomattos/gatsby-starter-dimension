@@ -5,9 +5,7 @@ import picNuno from '../images/nuno.jpg'
 import picRafael from '../images/rafael.png'
 import picOctavio from '../images/octavio_resized.jpg'
 import picDavid from '../images/david.jpg'
-import cvNuno from '../attachments/CV Nuno Matos.pdf'
-import cvRafael from '../attachments/CV RCR 19.pdf'
-import cvOctavio from '../attachments/CV Octávio Torres 2019.pdf'
+
 
 
 class Team extends React.Component{

@@ -15,7 +15,7 @@ const Footer = (props) => (
     `}
         render={data => (
             <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-                <p className="copyright">&copy; {data.site.siteMetadata.footerText}</p>
+                <p className="copyright">&copy; {data.site.siteMetadata.footerText} {(new Date().getFullYear())}</p>
             </footer>
         )}
     />

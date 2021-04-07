@@ -46,8 +46,10 @@ class Team extends React.Component{
                 <span className="image team left"><img src={picRafael} alt="" /></span>
                 <p className="name"><span className="underline">Rafael Corte Real</span></p>
                 <ul className="list">
-                    <li className="cv">Licenciatura em Direito pela Universidade Católica Portuguesa - Porto (2015)</li>
-                    <li className="cv">Mestrando em Direito Fiscal na Universidade Católica Portuguesa - Porto</li>
+                    <li className="cv">Licenciatura em Direito pela Universidade Católica Portuguesa - Porto (2014)</li>
+                    <li className="cv">Frequência do Mestrado em Direito Fiscal na Universidade Católica Portuguesa - Porto (2014-2015) - Conclusão da Parte Letiva (55 ECTS)</li>
+                    <li className="cv">Formador na área do Direito (Certificado de Competências Pedagógicas, 2020</li>
+                    <li className="cv">Colunista convidado no Observador</li>
                     <li className="cv">Línguas: Inglês</li>
                 </ul>
                 {/*<ul className="icons cv">

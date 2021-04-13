@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     mainTitle: "CTM Advogados",
+    title: "CTM Advogados",
     mainDescription: "“A sabedoria dos homens é proporcional não à sua experiência mas à sua capacidade de adquirir experiência”",
+    description: "“A sabedoria dos homens é proporcional não à sua experiência mas à sua capacidade de adquirir experiência”",
     mainDescriptionAuthor: "George Bernard Shaw",
     firstLink: "CTM",
     secondLink: "Equipa",

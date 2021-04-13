@@ -12,6 +12,7 @@ module.exports = {
     defaultTitle: "CTM Advogados",
     defaultDescription: "A CTM Advogados é um escritório composto por 4 Advogados, com sólida formação académica em Direito, que se norteiam por valores de ética, lealdade, independência, rigor, transparência e deontologia ao serviço da comunidade. O sigilo profissional e a confidencialidade são valores absolutos.",
     siteUrl: "https://www.ctm-advogados.pt",
+    url: "https://www.ctm-advogados.pt",
     defaultImage: "/images/logo.png",
     image: "/images/logo.png"
 

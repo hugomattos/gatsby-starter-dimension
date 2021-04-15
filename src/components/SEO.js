@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({ children, title, description, image, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
   const {
@@ -21,7 +21,7 @@ const SEO = ({ title, description, image, article }) => {
 
   let content;
 
-  if (location && location.pathname === '/') {
+  if (pathname && pathname === '/') {
     content = (
       <div>
         {children}

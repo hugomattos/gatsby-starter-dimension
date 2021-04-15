@@ -18,17 +18,40 @@ const SEO = ({ title, description, image, article }) => {
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
+
+  let content;
+
+  if (location && location.pathname === '/') {
+    content = (
+      <div>
+        {children}
+      </div>
+    )
+  } else {
+    content = (
+      <div id="wrapper" className="page">
+        <div>
+          {children}
+        </div>
+      </div>
+    )
+  }
+
   return (
-    <Helmet title={seo.title}>
-      <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
-      {seo.url && <meta property="og:url" content={seo.url} />}
-      {(article ? true : null) && <meta property="og:type" content="article" />}
-      {seo.title && <meta property="og:title" content={seo.title} />}
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-    </Helmet>
+    <>
+      <Helmet title={seo.title}>
+        <meta name="description" content={seo.description} />
+        <meta name="image" content={seo.image} />
+        {seo.url && <meta property="og:url" content={seo.url} />}
+        {(article ? true : null) && <meta property="og:type" content="article" />}
+        {seo.title && <meta property="og:title" content={seo.title} />}
+        {seo.description && (
+          <meta property="og:description" content={seo.description} />
+        )}
+        <html lang="pt" />
+      </Helmet>
+      {content}
+    </>
   )
 }
 export default SEO

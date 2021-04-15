@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import picNuno from '../images/nuno.jpg'
 import picRafael from '../images/rafael.jpeg'
-import picOctavio from '../images/octavio_1.jpg'
+import picOctavio from '../images/octavio_resized.jpg'
 import picDavid from '../images/david.jpg'
 
 
